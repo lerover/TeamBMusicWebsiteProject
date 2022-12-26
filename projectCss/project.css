@@ -225,7 +225,9 @@
     transition: 0.5s;
 }
 
-
+.login-article .profile-div .SocialMediaLinkIG{
+    background: linear-gradient(90deg ,purple,red,orange);
+}
 
 .login-article .profile-div .SocialMediaLink:hover {
     width: 100%;
