@@ -1,17 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <link href="../projectCss/profile.css" rel="stylesheet">
 </head>
+
 <body>
-    
+    <section class="firstProfileSection">
+        <article class="first-profile-article">
+            <div class="picture-and-name">
+                <div class="profile-picture">
+                    <img src="https://pbs.twimg.com/media/FiRRfNfXEAMCwmk.jpg" alt="" width="100%"
+                        style="object-fit: contain;">
+                </div>
+                <div class="profile-name">
+                    <div style="
+                    height: 250px;
+                    
+                    display: flex;
+    flex-direction: column;
+    justify-content: space-between;">
+                        <p>PROFILE</p>
+                        <h1 style="font-weight: 700; font-size: 7rem;">Ney-Mar</h1>
+                        <p style="letter-spacing: 1px;">7 Public Playlists . 5 Followers . 80 Following</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+
+    <section class="secondProfileSection">
+        <div class="top-artist-div">
+        <h1 style="text-transform: capitalize;font-weight: 600;font-size: 2rem;">top artists this month</h1>
+        </div>
+        <section class="loginsection">
+            <form action="" method="">
+                <article class="login-article">
+                <div class="artist-img">
+                    <img src="data:image/jpeg;base64,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" width="260px" style="margin-left: -60px;">
+                </div>
+                <div class="artist-img" style="border-radius:10px;background-color:transparent">
+<h1 style="">Drake</h1>
+<h1>Rich Flex</h1>
+                </div>
+                </article>
+            </form>
+        </section>
+    </section>
 </body>
+
 </html>
